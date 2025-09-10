@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1757460506,
+	"version": 1757468256,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -20,6 +20,10 @@
 		"images/boss2-sheet0.png",
 		"images/turret2-sheet0.png",
 		"images/turret3-sheet0.png",
+		"images/bullet2-sheet0.png",
+		"images/turret4-sheet0.png",
+		"images/bulletimpactparticles2.png",
+		"images/boss3-sheet0.png",
 		"media/ar2_altfire.m4a",
 		"media/ar2_altfire.ogg",
 		"media/irifle_fire2.m4a",

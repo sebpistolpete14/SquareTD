@@ -1,6 +1,6 @@
 ﻿{
-	"name": "Pathfinding demo",
-	"short_name": "Pathfinding demo",
+	"name": "SquareTD",
+	"short_name": "SquareTD",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "any",
