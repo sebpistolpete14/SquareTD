@@ -24060,12 +24060,12 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Audio,
-	cr.plugins_.Particles,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Text,
-	cr.plugins_.TiledBg,
+	cr.plugins_.Particles,
 	cr.plugins_.Touch,
+	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
+	cr.plugins_.Text,
 	cr.behaviors.Pathfinding,
 	cr.behaviors.Flash,
 	cr.behaviors.solid,
@@ -24105,5 +24105,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.SetText,
 	cr.plugins_.Audio.prototype.acts.StopAll,
 	cr.plugins_.Keyboard.prototype.cnds.OnKey,
-	cr.plugins_.Text.prototype.acts.SetBoolInstanceVar
+	cr.plugins_.Text.prototype.acts.SetBoolInstanceVar,
+	cr.system_object.prototype.acts.Wait,
+	cr.plugins_.Sprite.prototype.acts.SetAngle,
+	cr.system_object.prototype.exps.random
 ];};
